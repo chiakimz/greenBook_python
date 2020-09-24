@@ -10,6 +10,8 @@ class Node:
         n = head
         nodelist = []
         i = 0
+        if (n == None):
+            return None
         while (n != None):
             nodelist.append(n)
             if (n.next == None):
