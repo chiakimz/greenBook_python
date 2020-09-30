@@ -1,7 +1,4 @@
 
-def getMiddle(oneArrayLen: int) -> int:
-    return oneArrayLen / 2
-
 def sortedMerge(A: list, B: list) -> list:
     if A == []:
         return B
