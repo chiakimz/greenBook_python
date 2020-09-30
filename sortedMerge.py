@@ -10,8 +10,6 @@ def sortedMerge(A: list, B: list) -> list:
         high = len(A) - 1
         mid = 0
         while low <= high:
-            if i == 12:
-                print("HI")
             if low == high:
                 if A[high] >= i:
                     A.insert(high, i)
